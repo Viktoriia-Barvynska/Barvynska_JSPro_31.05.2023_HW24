@@ -1,0 +1,62 @@
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    max-width: 1200px;
+    max-height: 100%;
+    margin: 0 auto;
+    background-color: rgb(209, 202, 202);
+  }
+
+   .header {
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column
+  } 
+
+  .title {
+    margin: 15px 30px;
+  }
+
+  .main {
+    display: flex;
+    gap: 10px;
+  }
+
+  .user-list {
+    width: 30%;
+  }
+
+  .user-details {
+    width: 70%;
+  }
+
+  .user-details h2 {
+    margin: 0;
+  }
+
+  .user-details p {
+    margin-bottom: 5px;
+  }
+
+  .edit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .edit-form label {
+    font-weight: bold;
+  }
+
+  .edit-form input {
+    width: 100%;
+  }
+
+  .edit-form button {
+    margin-top: 10px;
+  }
